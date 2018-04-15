@@ -5,7 +5,7 @@ import (
 	"os"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/leo/go-slackbot/internal/bot"
+	"github.com/leosaysger/go-bot/internal/bot"
 	"gopkg.in/natefinch/lumberjack.v2"
 )
 

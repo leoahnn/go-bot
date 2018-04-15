@@ -17,7 +17,7 @@ func Parse(self *slack.UserDetails, ev *slack.MessageEvent, rtm *slack.RTM, api 
 		evText = ev.Msg.Text
 		evUser = ev.Msg.User
 	} else if ev.Msg.DeletedTimestamp == "" && ev.Msg.Attachments == nil { //not a delete event
-		// get thread text
+		// get thread tex
 		evText = ev.SubMessage.Text
 		evUser = ev.SubMessage.User
 	}
